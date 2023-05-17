@@ -36,7 +36,7 @@ function myFunction(...numbers) {
     }
 
     function copyObject(user) {
-        let newObject = {...user}
+        let newObject = {...user2}
 
         for (let i in user2) {
             if(typeof user2[i] === 'object'){
